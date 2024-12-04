@@ -11,10 +11,6 @@ public class Main {
             WordSearch parallelSearch = new ParallelCPUSearch(4);
             int parallelCount = parallelSearch.countOccurrences(filePath, word);
             System.out.println("Parallel CPU Search Count: " + parallelCount);
-
-            WordSearch gpuSearch = new ParallelGPUSearch();
-            int gpuCount = gpuSearch.countOccurrences(filePath, word);
-            System.out.println("Parallel GPU Search Count: " + gpuCount);
         } catch (Exception e) {
             e.printStackTrace();
         }

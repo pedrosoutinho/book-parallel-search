@@ -1,4 +1,4 @@
 Main.class
-ParallelGPUSearch.class
 WordSearch.class
+NaiveSerialSearch.class
 ParallelCPUSearch.class
