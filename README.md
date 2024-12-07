@@ -1,5 +1,12 @@
 # Comparação de Algoritmos de Busca
 
+### Professor:
+- Izequiel Noroes
+
+### Alunos:
+- Pedro Souto (2320443)
+- Matheus Gadelha (2210469).
+
 ## Resumo
 Este projeto teve como objetivo analisar o 
 desempenho de algoritmos de busca em diferentes 
@@ -80,7 +87,6 @@ Os códigos fonte das implementações estão disponíveis no repositório GitHu
 **Estrutura do código:**
 - `NaiveSerialSearch.java`: Implementação da busca sequencial.
 - `ParallelCPUSearch.java`: Implementação da busca paralela.
-- `WordSearch.java`: Implementação incompleta...
 - `Main.java`: Classe principal para execução e coleta de resultados.
 - `resultados.csv`: Arquivo com os tempos de execução registrados.
 
@@ -90,7 +96,4 @@ mvn compile
 mvn exec:java -Dexec.mainClass="Main"
 ```
 
-
-### Obs:
-Não conseguimos implementar o algorítmo de busca com JOCL
 
