@@ -1,4 +1,4 @@
-# Comparação de Algoritmos de Busca Sequencial e Paralela
+# Comparação de Algoritmos de Busca
 
 ## Resumo
 Este projeto teve como objetivo analisar o 
@@ -25,21 +25,8 @@ dados e ambientes de execução.
 ---
 
 ## Metodologia
-A abordagem seguiu os seguintes passos:
 
-1. **Implementação de Algoritmos**  
-   Foram implementados os seguintes algoritmos em Java:
-    - **Busca Sequencial (NaiveSerialSearch)**
-    - **Busca Paralela com CPU (ParallelCPUSearch)**
-
-2. **Execução em Ambientes Variados**  
-   Os algoritmos foram testados com diferentes tamanhos de conjuntos de dados e condições de hardware.
-
-3. **Registro de Dados**  
-   Os tempos de execução foram armazenados em arquivos CSV para análise posterior.
-
-4. **Análise Estatística**  
-   Os dados coletados foram analisados para identificar padrões de desempenho e diferenças entre os métodos.
+Análise estatística dos resultados obtidos para identificar padrões de desempenho e comparar os algoritmos sob diferentes condições.
 
 ---
 
@@ -96,4 +83,14 @@ Os códigos fonte das implementações estão disponíveis no repositório GitHu
 - `WordSearch.java`: Implementação incompleta...
 - `Main.java`: Classe principal para execução e coleta de resultados.
 - `resultados.csv`: Arquivo com os tempos de execução registrados.
+
+Pra rodar:
+```
+mvn compile
+mvn exec:java -Dexec.mainClass="Main"
+```
+
+
+### Obs:
+Não conseguimos implementar o algorítmo de busca com JOCL
 
