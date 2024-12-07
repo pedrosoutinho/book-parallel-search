@@ -1,4 +1,5 @@
 Main.class
+ParallelCPUSearch$LineProcessorTask.class
 WordSearch.class
 NaiveSerialSearch.class
 ParallelCPUSearch.class
